@@ -45,7 +45,9 @@ function App() {
             description='דו"ח ביד"צ, דו"ח דמ"ש'
             buttonText="להתחלת הלומדה >"
             buttonColor="#114687"
-            onClick={() => console.log("card 2")}
+            // onClick={() => console.log("card 2")}
+            onClick={() => window.location.href = "https://madortill.github.io/lomdat-traffic-reports/"}
+
           />
         </div>
       </div>
