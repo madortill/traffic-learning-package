@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+@font-face {
+    font-family: "Fredoka";
+    src: url("/Fredoka-VariableFont_wdth,wght.ttf");
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* background: linear-gradient(180deg, #FFC2C0 0%, #FFD9C4 60.1%); */
+    background-color: #e8eff8;
+    text-align: center;
+    color: #002446;
+    font-family: "Fredoka";
+}
+
+html {
+    font-size: calc(1vh + 0.5vw);
+}
+
+::selection {
+    /* background-color: #26547E; */
+    background-color: #95193D;
+    color: aliceblue;
+}
+/* 
+.app {
+    width: 100%;
+    height: 100vh;
+} */
+
+.logo-bahad13 {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 5.4rem;
+    height: auto;
+    z-index: 15;
+}
+
+.till-logo {
+    position: fixed;
+    top: 1rem;
+    left: 7rem;
+    z-index: 3;
+    width: 6.4rem;
+}
+
+.circle {
+    position: absolute;
+    width: 19vw;
+}
+
+.circlesBottom {
+    bottom: 0;
+    left: 0;
+}
+
+.circlesTop {
+    top: 0;
+    right: 0;
+}
+
+.header-open {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 7rem;
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+
+.p-open {
+    position: absolute;
+    top: 11rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #848FA0;
+    font-size: 1.05rem;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 15rem;
+  }
