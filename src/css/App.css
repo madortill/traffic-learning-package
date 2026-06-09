@@ -13,12 +13,13 @@
 body {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* background: linear-gradient(180deg, #FFC2C0 0%, #FFD9C4 60.1%); */
     background-color: #e8eff8;
     text-align: center;
     color: #002446;
     font-family: "Fredoka";
+    overflow-x: hidden;
 }
 
 html {
@@ -94,7 +95,7 @@ html {
     margin-top: 15rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 535px) {
     .cards-container {
         flex-direction: column;
         padding-top: 3rem;
