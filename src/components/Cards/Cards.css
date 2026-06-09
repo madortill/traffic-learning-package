@@ -14,6 +14,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 
   text-align: center;
+  z-index: 2;
 }
 
 .card-image {
@@ -62,6 +63,10 @@
 .card-button:hover {
   transform: scale(1.02);
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.card-button:active {
+  transform: translateY(0) scale(0.97);
 }
 
 @media (max-width: 500px) {
