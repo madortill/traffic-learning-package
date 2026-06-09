@@ -58,6 +58,7 @@ html {
 .circle {
     position: absolute;
     width: 19vw;
+    z-index: 0;
 }
 
 .circlesBottom {
@@ -77,6 +78,7 @@ html {
     top: 7rem;
     font-size: 2.7rem;
     font-weight: 500;
+    z-index: 2;
 }
 
 .p-open {
@@ -93,6 +95,7 @@ html {
     justify-content: center;
     gap: 3rem;
     margin-top: 15rem;
+    z-index: 2;
 }
 
 @media (max-width: 535px) {
