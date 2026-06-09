@@ -1,56 +1,93 @@
 .card {
-    width: 18rem;
-    min-height: 23rem;
-  
-    background: white;
-    border-radius: 1rem;
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
-    padding: 1rem;
-  
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  
-    text-align: center;
-  }
-  
-  .card-image {
-    /* width: 15rem; */
-    height: 10rem;
-    object-fit: contain;
+  width: 18rem;
+  min-height: 23rem;
+
+  background: white;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 1rem;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  text-align: center;
+}
+
+.card-image {
+  /* width: 15rem; */
+  height: 10rem;
+  object-fit: contain;
+}
+
+.card-image-1 {
+  height: 11.7rem;
+}
+
+.card-title {
+  /* color: #0e2f57; */
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: #848FA0;
+  margin: 10px 0 25px;
+}
+
+.card-button {
+  width: 16rem;
+  height: 2.5rem;
+
+  border: none;
+  border-radius: 0.5rem;
+
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+
+  margin-top: auto;
+
+  font-family: "Fredoka";
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background-color 0.25s ease;
+}
+
+.card-button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 20rem;
+    min-height: 25rem;
   }
 
-  .card-image-1 {
-    height: 11.7rem;
+  .card-image {
+    height: 12rem;
   }
-  
+
   .card-title {
     /* color: #0e2f57; */
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-top: 1rem;
+    font-size: 1.8rem;
+    margin-top: 1.08rem;
   }
-  
-  .card-description {
-    font-size: 0.9rem;
-    color: #848FA0;
-    margin: 10px 0 25px;
-  }
-  
-  .card-button {
-    width: 16rem;
-    height: 2.5rem;
-  
-    border: none;
-    border-radius: 0.5rem;
-  
-    color: white;
-    font-size: 0.9rem;
-    cursor: pointer;
-  
-    margin-top: auto;
 
-    font-family: "Fredoka";
+  .card-button {
+    font-size: 1.3rem;
+    width: 18rem;
+    height: 2.9rem;
   }
+
+  .card-description {
+  font-size: 1.2rem;
+  }
+
+}

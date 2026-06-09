@@ -30,6 +30,7 @@ html {
     background-color: #95193D;
     color: aliceblue;
 }
+
 /* 
 .app {
     width: 100%;
@@ -91,4 +92,31 @@ html {
     justify-content: center;
     gap: 3rem;
     margin-top: 15rem;
-  }
+}
+
+@media (max-width: 500px) {
+    .cards-container {
+        flex-direction: column;
+        padding-top: 3rem;
+        /* gap: 1.5rem; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-open {
+        width: 80%;
+        font-size: 2.9rem;
+        top: 9rem;
+    }
+
+    .p-open {
+        top: 13.5rem;
+        font-size: 1.45rem;
+        width: 70%;
+    }
+
+    .circle {
+        width: 11rem;
+    }
+
+}
