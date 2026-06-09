@@ -13,7 +13,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
     /* background: linear-gradient(180deg, #FFC2C0 0%, #FFD9C4 60.1%); */
     background-color: #e8eff8;
     text-align: center;
@@ -48,7 +48,7 @@ html {
 }
 
 .till-logo {
-    position: fixed;
+    position: absolute;
     top: 1rem;
     left: 7rem;
     z-index: 3;
